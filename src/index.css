@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@plugin "daisyui";
+:root {
+  
+  background-color: #f5f5f5;
+  color: rgb(32, 32, 32);
+ 
+}
+
+.title{
+  @apply 
+  font-semibold
+  text-xl
+  text-gray-600
+}
+
+.title2{
+  @apply 
+  font-semibold
+  text-lg
+  text-gray-700
+}
+
+.text{
+  @apply
+  text-gray-600
+}
