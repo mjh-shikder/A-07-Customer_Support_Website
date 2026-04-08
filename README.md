@@ -4,7 +4,7 @@ A responsive customer support ticket dashboard built with React and Vite. The ap
 
 ## Live Demo
 
-[View Live Project](https://www.mjhshikder.com/)
+[View Live Project](https://mjhcustomersupport.netlify.app/)
 
 ## Project Overview
 
