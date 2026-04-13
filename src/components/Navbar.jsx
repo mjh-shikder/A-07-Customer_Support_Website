@@ -3,7 +3,7 @@ import Container from "./Container";
 
 const Navbar = () => {
   return (
-    <nav className="py-3 bg-transparent backdrop-blur-md sticky top-0 z-10  ">
+    <nav className="py-3 bg-transparent backdrop-blur-md sticky top-0 z-10 ">
       <Container>
         <div className="flex justify-between items-center px-2 md:px-0 ">
           <div>
@@ -13,16 +13,12 @@ const Navbar = () => {
           </div>
           <div className=" md:flex  items-center gap-7  ">
             <div className="dropdown dropdown-center md:hidden ">
-              <div
-                tabIndex={0}
-                role="button"
-                className="btn m-1  "
-              >
+              <div tabIndex={0} role="button" className="btn m-1  ">
                 Menu
               </div>
               <ul
                 tabIndex={0}
-                className="dropdown-content menu backdrop-blur-md rounded-box z-15 w-52 p-2 shadow-sm"
+                className="dropdown-content menu rounded-box z-15 w-52 p-2 shadow-sm    "
               >
                 <li>
                   <h3 className="text-gray-800 font-bold ">Home</h3>
@@ -44,7 +40,7 @@ const Navbar = () => {
                 </li>
               </ul>
             </div>
-            <div className="md:flex items-center gap-5 hidden ">
+            <div className="md:flex items-center gap-5 hidden font-bold ">
               <h3 className="text-gray-700">Home</h3>
               <h3 className="text-gray-700">FAQ</h3>
               <h3 className="text-gray-700">Changelog</h3>

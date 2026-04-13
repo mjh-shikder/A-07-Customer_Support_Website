@@ -10,7 +10,7 @@ const StatuBox = ({ clicked, clickComplete }) => {
     return (
         <div>
         <Container>
-          <div className="flex flex-col md:flex-row justify-between my-20 gap-5  overflow-hidden text-white  ">
+          <div className="flex flex-col md:flex-row justify-between md:my-20 gap-5  overflow-hidden text-white  ">
             <div
               className="md:w-1/2 text-center flex flex-col justify-center h-60 rounded-xl  bg-gradient-to-r 
          from-[#642fe4] to-[#9d60ff] relative  "
