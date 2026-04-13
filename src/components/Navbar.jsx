@@ -7,36 +7,40 @@ const Navbar = () => {
       <Container>
         <div className="flex justify-between items-center px-2 md:px-0 ">
           <div>
-            <h1 className="font-bold md:text-2xl text-black ">
+            <h1 className="font-bold md:text-2xl text-gray-800 ">
               CS- Ticket System
             </h1>
           </div>
           <div className=" md:flex  items-center gap-7  ">
             <div className="dropdown dropdown-center md:hidden ">
-              <div tabIndex={0} role="button" className="btn m-1">
+              <div
+                tabIndex={0}
+                role="button"
+                className="btn m-1  "
+              >
                 Menue
               </div>
               <ul
                 tabIndex={0}
-                className="dropdown-content  menu bg-black rounded-box z-1 w-52 p-2 shadow-sm"
+                className="dropdown-content menu bg-transparent backdrop-blur-xl rounded-box z-15 w-52 p-2 shadow-sm"
               >
                 <li>
-                  <h3 className="text-gray-300">Home</h3>
+                  <h3 className="text-gray-800 font-bold ">Home</h3>
                 </li>
                 <li>
-                  <h3 className="text-gray-300">FAQ</h3>
+                  <h3 className="text-gray-800 font-bold">FAQ</h3>
                 </li>
                 <li>
-                  <h3 className="text-gray-300">Changelog</h3>
+                  <h3 className="text-gray-800 font-bold">Changelog</h3>
                 </li>
                 <li>
-                  <h3 className="text-gray-300">Blog</h3>
+                  <h3 className="text-gray-800 font-bold">Blog</h3>
                 </li>
                 <li>
-                  <h3 className="text-gray-300">Download</h3>
+                  <h3 className="text-gray-800 font-bold">Download</h3>
                 </li>
                 <li>
-                  <h3 className="text-gray-300">Contact</h3>
+                  <h3 className="text-gray-800 font-bold">Contact</h3>
                 </li>
               </ul>
             </div>
