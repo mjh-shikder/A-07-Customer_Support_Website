@@ -3,7 +3,7 @@ import Container from "./Container";
 
 const Navbar = () => {
   return (
-    <nav className="border-b bg-white border-gray-300  py-4 ">
+    <nav className="py-3 bg-transparent backdrop-blur-md sticky top-0 z-10  ">
       <Container>
         <div className="flex justify-between items-center px-2 md:px-0 ">
           <div>
