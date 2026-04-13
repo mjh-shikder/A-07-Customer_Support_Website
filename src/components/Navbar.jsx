@@ -18,11 +18,11 @@ const Navbar = () => {
                 role="button"
                 className="btn m-1  "
               >
-                Menue
+                Menu
               </div>
               <ul
                 tabIndex={0}
-                className="dropdown-content menu bg-transparent backdrop-blur-xl rounded-box z-15 w-52 p-2 shadow-sm"
+                className="dropdown-content menu backdrop-blur-md rounded-box z-15 w-52 p-2 shadow-sm"
               >
                 <li>
                   <h3 className="text-gray-800 font-bold ">Home</h3>
